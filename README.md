@@ -6,10 +6,9 @@
 ╚██████╗   ██║   ██████╔╝███████╗██║  ██║███████║██║     ██║  ██║╚██████╗███████╗
  ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝  ╚═╝ ╚═════╝╚══════╝
 ```
+## [NEW OFFICAL TUI LIVES HERE](https://github.com/unremarkablegarden/cyberspace-opentui)
 
 The OLD terminal client for [Cyberspace](https://cyberspace.online/) built with Go and [Bubble Tea](https://github.com/charmbracelet/bubbletea).
-
-# [NEW OFFICAL TUI LIVES HERE](https://github.com/unremarkablegarden/cyberspace-opentui)
 
 Browse the feed, read posts and replies, and switch themes.
 

@@ -19,10 +19,12 @@ Stuff found while working on the code
 - [X] Show help info for keybinds
 - [X] Re do bookmark removal logic to simplify it (can be done similar to how notes works right now)
 - [X] With current changes, each screen change triggers a new request (local cache?)
+- [X] Fix same size for all items in feeds to maintain same view when scrolling
 
 ## Stuff to fix
 - [ ] When a post is saved in the post detail view, there is no "unsave" functionality
 - [ ] Note composer "IsEdit" flag works only to edit a note, if "IsEdit" is false, falls back to "new note" instead of open a note in read mode or something
+- [ ] When opening post details, the spinner does not spin for replies loading
 
 
 ## Stuff to do
@@ -32,4 +34,3 @@ Stuff found while working on the code
 - [ ] Support for custom footer messages
 - [ ] Re do a lot of stuff in post detail to simplify
 - [ ] Reply only works for main post, no other comments
-- [ ] Fix same size for all items in feeds to maintain same view when scrolling

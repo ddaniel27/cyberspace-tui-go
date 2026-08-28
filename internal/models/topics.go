@@ -138,7 +138,7 @@ func (m TopicsModel) View() string {
 	}
 
 	var b strings.Builder
-	b.WriteString(ui.RenderHeader("▓▒░ TOPICS ░▒▓", w))
+	b.WriteString(ui.RenderHeader("▓▒░ 𝓣Øρเ¢ร ░▒▓", w))
 	b.WriteString(m.list.View())
 	b.WriteString("\n")
 	b.WriteString(
@@ -149,12 +149,6 @@ func (m TopicsModel) View() string {
 		))
 
 	return b.String()
-}
-
-func (m *TopicsModel) SetSize(width, height int) {
-	m.width = width
-	m.height = height
-	m.list.SetSize(width, height-4)
 }
 
 func (m TopicsModel) fetchTopics(isRefresh bool) tea.Cmd {
